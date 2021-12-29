@@ -1,0 +1,230 @@
+@media(max-width:1440px){}
+@media(max-width:1320px){}
+@media(max-width:1290px){}
+@media(max-width:1140px){}
+@media(max-width:1110px){
+    .box1{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media(max-width:1024px){
+    .box1{
+        flex-direction: column;
+    }
+    .first{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .first p{
+        margin-top: 0;
+    }
+    .second{
+        flex-direction: column;
+        align-items: center;
+    }
+    .second p{
+        margin-top: 20px;
+    }
+    .third{
+        margin-top: 30px;
+    }
+}
+@media(max-width:992px){
+    .intro{
+        height: 600px;  
+    }
+}
+@media(max-width:768px){
+    .intro h1{
+        text-align: center;
+    }
+    .intro{
+        height: 500px;
+    }
+    .first_img{
+        width: 452px;
+        height: 250px;
+    }
+    .second_img{
+        width: 357px;
+height: 308px;
+    }
+    .third{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .text_left::after{
+        width: 0;
+        height: 0;
+    }
+    .text_right::before{
+        width: 0;
+        height: 0;
+    }
+    .text_right,
+    .text_left,
+    .second p,
+    .first p{
+        text-align: center;
+    }
+    .third_img{
+        width: 200px;
+height: 275px;
+    }
+    .intro h1{
+        font-size: 80px;
+    }
+    .intro a{
+        font-size: 16px;
+        width: 170px;
+        height: 30px;
+    }
+}
+@media(max-width:736px){
+    .intro{
+        height: 450px;
+    }
+    .first_img{
+        width: 352px;
+        height: 200px;
+    }
+    .second_img{
+      width: 257px;
+    height: 208px;
+    }
+    .second p,
+    .first p{
+        font-size: 19px;
+        line-height: 23px;
+    }
+}
+@media(max-width:734px){}
+@media(max-width:684px){}
+@media(max-width:667px){
+    .visa,
+    .mastercard{
+        font-size: 45px;
+        line-height: 25px;
+    }
+}
+@media(max-width:576px){
+    .intro{
+        height: 400px;
+    }
+    .nav_link{
+        font-size: 17px;
+        line-height: 21px;
+    }
+}
+@media(max-width:550px){
+    .tels{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .box1{
+        gap: 10px;
+    }
+    .things{
+        flex-direction: column;
+    }
+    .footer{
+        margin-top: 30px;
+        height: 180px;
+    }
+    .footer_list{
+        margin-top: 10px;
+    }
+    .icons{
+        margin-top: 20px;
+    }
+    .visa,
+    .mastercard{
+        font-size: 45px;
+        line-height: 2  5px;
+    }
+}
+@media(max-width:529px){
+    .intro a{
+        width: 152px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .visa,
+    .mastercard{
+        font-size: 35px;
+        line-height: 15px;
+    }
+}
+@media(max-width:440px){
+    .box{
+        flex-direction: column-reverse;
+    }
+}
+@media(max-width:414px){
+    .box{
+        flex-direction: column-reverse;
+    }
+    .intro h1{
+        text-align: center;
+    }
+    .first_img{
+        width: 250px;
+        height: 150px;
+    }
+}
+@media(max-width:375px){}
+@media(max-width:360px){
+    .intro h1{
+        font-size: 60px;
+    }
+    .intro{
+        height: 380px;
+    }
+}
+@media(max-width:340px){
+    .box{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .left_nav{
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    .right{
+        margin-bottom: 6px;
+    }
+}
+
+@media(max-width:380px){
+    .third_img{
+        width: 150px;
+        height: 200px;
+    }
+}
+@media(max-width:320px){
+    .third_img{
+        width: 150px;
+        height: 200px;
+    }
+    .text_right,
+    .text_left{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .left_nav{
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    .box{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .right{
+        margin-bottom: 6px;
+    }
+}
+@media(max-width:280px){}
